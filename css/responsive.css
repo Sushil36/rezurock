@@ -1,0 +1,283 @@
+@media screen and (min-width:992px) and (max-width:1024px) {
+.container {padding: 0;}  
+.logo_side{max-width: 140px;}
+.top_link ul li.top_main_link {padding-right: 10px;}
+.menu_side{max-width: 830px;}
+.menu_list li a{font-size: 16px;padding: 6px 21px;}
+.foot_link{max-width: 775px;order: 2;}
+.foot_logo{margin: 0;}
+}
+
+@media screen and (min-width:320px) and (max-width:768px) {
+.menu_visible .mobile_top_link,.menu_visible .header_outer.common_outer{background: #FAFAFA;}
+.common_banner_img.for_mobile img{width: 100%;}
+.common_banner_img.for_mobile {width: 100%;}
+.for_mobile{display: block !important;text-align: center;}
+.for_desktop{display: none !important;} 
+.logo_side img {max-width: 160px;}
+.top_link {display: none;}
+.menu_links #toggle_menu {display: block;margin-right:5px;padding-bottom: 10px;}
+.mobile_top_link span:last-child {padding-right: 15px;}
+.menu_side {padding: 0;}
+.logo_side {width: 70%;max-width: inherit;float: left;}
+.menu_side {width: 30%; max-width: inherit;text-align: right;}
+.menu_side img{max-width: 42px;text-align: right;}
+.menu_list {position: fixed;z-index: 99;top: 135px;left: 0;height: 100%;width: 100%;background-color: transparent;padding: 0;box-sizing: border-box;visibility: hidden;transition: all 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
+.menu_visible .menu_list { visibility: visible;background-color: #FAFAFA;overflow-y: auto;}
+.menu_list {visibility: hidden;}
+.header_outer {padding: 15px 10px 10px;}
+.arrow-down {float: right;margin-top: 6px;padding-right: 40px;top: 0;}
+.header_outer .container {display: flex;align-items: flex-end;}
+.menu_list ul li {width: 100%;padding: 0;text-align: left;opacity: 0; transform: scale(1.1);transition: opacity 0.2s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.4s cubic-bezier(0.4, 0.01, 0.165, 0.99);}
+.menu_list ul li a{width: 100%;text-align: left;padding: 4px 17px}
+.menu_visible .menu_list li {margin-bottom: 15px; opacity: 1; transform: scale(1)}
+.menu_visible .menu_list ul li:nth-child(1) {-webkit-transition-delay: 80ms;-moz-transition-delay:80ms;-o-transition-delay:80ms;transition-delay:80ms;}
+.menu_visible .menu_list ul li:nth-child(2) {-webkit-transition-delay: 180ms;-moz-transition-delay:180ms;-o-transition-delay:180ms;transition-delay:180ms;}
+.menu_visible .menu_list ul li:nth-child(3) {-webkit-transition-delay: 280ms;-moz-transition-delay:280ms;-o-transition-delay:280ms;transition-delay:280ms;}
+.menu_visible .menu_list ul li:nth-child(4) {-webkit-transition-delay: 380ms;-moz-transition-delay:380ms;-o-transition-delay:380ms;transition-delay:380ms;}
+.menu_visible .menu_list ul li:nth-child(5) {-webkit-transition-delay: 480ms;-moz-transition-delay:480ms;-o-transition-delay:480ms;transition-delay:480ms;}
+.menu_visible .menu_list ul li:nth-child(6) {-webkit-transition-delay: 580ms;-moz-transition-delay:580ms;-o-transition-delay:580ms;transition-delay:580ms;}
+.menu_visible .menu_list ul li:nth-child(7) {-webkit-transition-delay: 680ms;-moz-transition-delay:680ms;-o-transition-delay:680ms;transition-delay:680ms;}
+.menu_visible .menu_list ul li:nth-child(8) {-webkit-transition-delay: 780ms;-moz-transition-delay:780ms;-o-transition-delay:780ms;transition-delay:780ms;}
+.menu_visible .menu_list ul li:nth-child(9) {-webkit-transition-delay: 880ms;-moz-transition-delay:880ms;-o-transition-delay:880ms;transition-delay:880ms;}
+.menu_visible .menu_list ul li a.btn {width: 190px;height: 50px;border-radius: 25px;font-size: 25px;line-height: 17px;font-family: 'barlow_condensedbold';background: transparent linear-gradient(90deg, #D71173 0%, #C22094 100%) 0% 0% no-repeat padding-box;color: #FAFAFA;display: flex;align-items: center;}
+.menu_visible .menu_list ul li a.btn span {width: 100%;text-align: center;}
+.mobile_top_link{display:block;background-color: #fff;width: 100%;margin: 0;float: left;padding: 20px 0 0;} 
+.mobile_top_link a{color: #2B2B2B;line-height: 15px;font-size: 14px;font-family: 'barlowmedium';}
+.mobile_top_link span {width: 50%;float: left;text-align: center;}
+.menu_visible .menu_list li.for_mobile {padding:12px 17px;}
+.menu_visible .menu_list li.for_mobile a { padding: 0 !important;display: flex;width: 100%;align-items: center;}
+.menu_visible .menu_list li.for_mobile.care_professionals a {color: #373B3C;font-size: 16px;line-height: 19px;font-family: 'barlowregular';}
+.menu_visible .menu_list li.for_mobile.stay_info a {color: #D70073;font-size: 16px;line-height: 19px;font-family: 'barlowbold';}
+.menu_visible .menu_list li.dropdown.open .dropdown-menu.custom_dropdwon {position: relative;box-shadow: none;border: none;}
+.menu_visible .menu_list li.dropdown.open .dropdown-menu.custom_dropdwon br {display: none;}
+.menu_visible{overflow: hidden;}
+.menu_visible .menu_list li.for_mobile a {text-transform: inherit;}
+.menu_visible .menu_list li.for_mobile.care_professionals img {max-width: 14px;display: inherit;}
+.menu_list li .dropdown-menu.custom_dropdwon li {width: 100%;text-align: left;padding: 0 58px 0 17px;margin: 0;}
+.menu_list li.faq_link a{margin: 0;}
+/*Header css start here*/
+ /*Footer css start here*/
+.isi_section  br{display: none;}
+.are_encouraged {width: 101%;}
+.swallow_text {padding-right: 7px;}
+.you_miss {padding-right: 7px;}
+.side_effects {padding-right: 25px;}
+.foot_link {padding: 0;}
+.foot_link li {width: 50%;float: left;padding-bottom: 30px;padding-right: 0;}
+.foot_link ul {margin-bottom: 45px;}
+.brake_for_mobile{display: block;}
+.footer_outer {padding: 50px 15px 75px;}
+.foot_logo {order: 2;margin-top: 40px;}
+/*Footer css end here*/  
+    
+/*Banner css Start here*/ 
+.carousel, .carousel-inner, .carousel-inner .item{height: 510px;}
+.hero_slider_content {width: 100%;position: absolute;top: 44px;padding:17px 33px 0 ;} 
+.hero_slider_content h4 {max-width: 260px;display: inline-block;}   
+.hero_outer {height: auto;background-image: url(../images/hero-mobile-bg.png);}
+.hero_slider_content h2 {font-size: 100px;line-height: 72px;margin:0 0 0 -2px;padding: 0;white-space: nowrap;left: auto;}
+.hero_slider_content h3 {font-size: 41px;line-height: 49px;margin: 0;}
+.hero_slider_content .btn {margin: 215px auto 0;}
+.now_approved {width: 100%;border-radius: 0;text-align: center;}
+.now_approved h3{padding: 5px 15px;}
+.hero_slider{margin: 0;padding: 0;}
+.fade-carousel .slides .slide-1 {background-image: url(../images/mobile-hero-slide1.png);background-size: 105%;background-position: left bottom 157px;}
+.fade-carousel .slides .slide-2 {background-image: url(../images/mobile-hero-slide2.png);background-size: 110%;background-position: left bottom 157px;width: 100%;}
+.fade-carousel .slides .slide-3 {background-image: url(../images/mobile-hero-slide3.png);background-size: 100%;background-position: left bottom 157px;width: 101%;}
+.hero_slider_text.for_mobile {width: 100%;float: left;padding: 70px 30px 75px;background: #fff;}   
+.hero_slider_text br{display: none;}  
+.hero_slider_content p {margin: 52px 0 75px;}
+.hero_slider_content p br{display: none;}
+.hero_slider{width: 100%;}
+.hero_outer .container{padding: 0;}
+/* Banner css end here*/ 
+    
+ /*signup css start here*/     
+.signup_desc {padding: 95px 40px 50px 40px;}
+.signup_outer {background: none;}
+.signup_outer .container {padding: 0;min-height: inherit;}
+.signup_img{max-width: inherit;}
+.signup_desc p{margin-bottom: 40px;} 
+.service_icon{margin-bottom: 35px;} 
+.signup_inner {background: none;}
+ /*signup css End here*/ 
+    
+ /*service css start here*/ 
+.rezurock-service{padding: 93px 15px 100px;}
+.service_box {width: 100%;border-right: none;border-bottom: 1px solid #FAFAFA;padding-bottom: 110px;margin-bottom: 110px}
+.service_content h3{min-height: inherit;margin-bottom: 35px;}
+.service_box:last-of-type{margin-bottom: 0;padding-bottom: 0;border: none;}
+.service_content h3 br{display: none;}
+.service_content{max-width: 301px;}
+.service_content br{display: none;}
+.graft_versus_host {margin: 55px 0;}
+.service_box.service_box1 {padding-right:0;}
+.service_box.service_box2 {padding-left: 0; padding-right: 0;} 
+.service_box.service_box3 {padding-left: 0;}
+.service_box.service_box2 h3 {max-width: 275px;display: inline-block;}
+.isi_section {padding: 0 10px 100px;}
+.graft_versus_host p {padding: 0 12px;}
+.use_outer {padding-right: 5px;}
+/*service css end here*/
+
+    
+ /*FAQ css start here*/
+.faq_inner.banner_inner {background: none;}
+.faq_inner .container{min-height: inherit;} 
+.common_banner {padding-top: 20px;}
+.faq_banner_outer h2 {font-size: 40px;line-height: 42px;margin-bottom: 35px;}
+.common_banner .container{padding: 0;}
+.common_banner_desc{padding: 0 25px;}
+.faq_content h3{max-width: 293px;font-size: 24px;line-height: 33px;}
+.faq_outer ul li{padding: 15px 0;}
+#faq_section{padding: 63px 28px 45px 27px;}
+.video_list_outer{margin-top: 30px; padding: 0 15px;}
+.see_how_people{padding: 60px 0 75px;margin-bottom: 99px;}
+.see_how_people h2{font-size: 30px;line-height: 34px;padding: 0 15px;}
+.video_box {max-width: 316px;height: 178px; margin: 0 auto;}
+.video_list {max-width: inherit;margin: 0 0 36px;}
+.video_list br{display: none;}
+.see_how_people p{font-size: 22px;line-height: 28px;}
+.visit_name_left,.visit_name_right{max-width: inherit;}
+.visit-these-organization{padding: 0 15px 0 11px;}
+.visit_outer p{margin-bottom:30px;line-height: 30px;}
+.visit_outer p span{margin-left: 0;left: 5px;}
+.responsible_for p{margin-right: -5px;margin-bottom: 10px;}
+.faq_download_img{margin: 0 auto 38px;}
+.faq_download{padding: 94px 0 117px; margin-bottom: 99px;}
+.faq_download_content {padding: 0 15px;text-align: center;}
+.download_btns .btn:first-of-type {margin: 0 auto 68px;}
+.download_btns .btn {margin: auto;}
+.left_bg_banner .container{flex-direction:row;}
+.qualify_for .banner_inner{background: none;}
+.left_bg_banner .common_banner_desc{padding: 0 30px;}
+.check_btn {margin: 20px 0 40px;}
+ .faq_link_outer .bs-caret {background: transparent linear-gradient(136deg, #D70073 0%, #9567DC 100%) 0% 0% no-repeat padding-box;width: 50px;float: right;position: absolute;right: -1px;top: -1px;bottom: -1px;border-radius: 0 9px 9px 0;}   
+.faq_link_outer .caret {border-top: 12px dashed #fff;border-right: 12px solid transparent;border-left: 12px solid transparent;margin-top: -7px;position: absolute;right: 10px;z-index: 9;top: 28px;}
+.faq_link_outer .btn{height: 57px;width: 335px;border-radius: 9px;border-color: #707070 ;background: #fff !important;box-shadow: none !important;font-size: 20px !important;line-height: 24px !important;color: #D70073 !important;font-family: 'barlowsemibold';padding-left: 14px;position: relative;top: 1px;bottom: 1px;}
+.faq_link_outer li a ,.bootstrap-select.btn-group .dropdown-menu li a span.text{color: #D70073;font-size: 20px;line-height: 24px;font-family: 'barlowmedium'; white-space: normal;}
+.faq_link_outer li {border-right: none;border-bottom: 1px solid #707070;margin-right: 0 !important;float: left;width: 100%;padding: 5px 0;}  
+.faq_outer ul li p br{display: none;}
+.faq_outer .right-arrow{top: 4px;}
+.list_dot_line{position: relative;}
+.faq_link_outer .btn.btn-primary.dropdown-toggle {border: 1px solid #707070;text-align: left;position: relative;}
+.faq_link_outer .btn.btn-primary.dropdown-toggle::after {background: transparent linear-gradient(136deg, #D70073 0%, #9567DC 100%) 0% 0% no-repeat padding-box;content: "";position: absolute;right: -1px;width: 50px;height: 57px;top: -1px;border-radius: 9px;}
+.faq_link_outer ul {max-width: 335px;left: 50%;-ms-transform: translateX(-50%);-webkit-transform: translateX(-50%);-moz-transform: translateX(-50%);-o-transform: translateX(-50%);transform: translateX(-50%);}
+.faq_outer .container {padding: 0;}
+.faq_download h2 {color: #FAFAFA;margin: 0;max-width: 310px;display: inline-block;}
+/*FAQ css end here*/  
+
+/*Living With Chronic GVHD cs start here*/
+.gets_answer .signup_desc   {padding: 0 30px 10px;}
+.gets_answer h2 {margin-bottom: 10px;}  
+.living_with_chronic.left_bg_banner .container{min-height: inherit;}
+.living_with_chronic .banner_inner{background: none;}    
+.living_with_chronic.left_bg_banner .signup_desc h2 {font-size: 40px;line-height: 42px;margin-top: 0;}
+.left_bg_banner .common_banner_desc {padding: 0 20px 20px 28px;}
+.what_happen_outer.common_outer {padding:93px 5px 105px 12px;}   
+.what_happen h2 {margin: 0 0 29px;font-size: ;line-height: 34px;}   
+.what_happen-img {padding: 25px 0 0;max-width: inherit;}   
+.left_fibrosis ,.left_nflammation {width: 100%;max-width: inherit;padding: 0;}
+.left_fibrosis {border-top: 1px solid #707070;border-left: none;margin-top: 40px;padding-top: 40px;} 
+.inflammation_inner {padding: 55px 17px 55px 12px;} 
+.left_nflammation {padding: 0 12px;}
+.many_challenges{font-size: 27px;padding: 37px 28px 36px 27px;}    
+.inflammation_inner h2,.inflammation_inner p{text-align: center;}   
+.part_of_body .container {padding: 0 18px 0 26px;}   
+.part_of_body h2 {line-height: 37px;text-align: left;max-width: 315px;}   
+.part_of_body p strong{margin-bottom: 35px;}   
+.left_parts .part_name,.right_parts .part_name{max-width: 232px;}
+.part_of_body_inner{margin-bottom: 20px;}
+.medication_symptoms p{font-size: 29px;}
+.medication_symptoms {padding: 35px 32px 95px 33px;text-align: center;margin: 0;}
+.medication_symptoms p::after,.medication_symptoms p::before{display: none;}
+.medication_symptoms .container,.see_how_outer .container{padding: 0;}
+.different_treatment,.how_people{padding: 0;width: 100%;}
+.different_treatment {border-right: none;border-bottom: 1px solid #F1F2F3;padding-bottom: 75px;margin-bottom: 64px;}
+.next_btn img {max-width: 85px;}
+.see_how_outer p{line-height: 35px;}
+.how_people .next_btn,.next_btn{margin-top: 45px;}
+.see_how_outer{padding: 77px 30px;margin-bottom: 150px;}
+.living_with_chronic .common_banner_img.for_mobile {margin-top: 20px;}
+.part_of_body_inner:last-of-type {margin-top: 35px;}
+/*Living With Chronic GVHD cs End here*/
+  
+/*register-to-stay-informed page css start here*/
+.stay_informed_banner .banner_inner{background: none;}
+.stay_informed_banner.left_bg_banner .signup_desc h2{font-size: 40px;line-height: 42px; margin: 0 0 15px;}
+.form_outer .by_clicking{max-width: 301px;}
+.form_outer p.error_text{margin-bottom: 35px;}
+.form_outer p{margin-bottom: 25px;}
+.form_outer.thank_you p {max-width: 188px;display: inline-block;}
+/*register-to-stay-informed page css end here*/
+  
+/*get-support page css start here*/
+.qualify_for .get_support_banner .signup_desc h2{font-size: 40px;line-height: 42px; padding-left: 0;max-width: 322px;margin: 0;}
+.find_out_outer .container{padding: 0;}
+.find_out_desc{padding: 0;}  
+.find_out_outer p{max-width: 330px;font-size: 26px;line-height: 30px;}
+.find_out_icon {margin: 0 auto 35px;}
+.kadmon_icon {padding-bottom: 40px;border-right: none;}
+.kadmon_outer .container{padding: 0 27px 0 25px;}
+.kadmon_desc{padding-left: 0;text-align: center;}
+.support_system_list,.left_access_suport{margin-bottom: 60px;}
+.support_system_list {align-items: flex-start;}
+.support_system_desc {max-width: 250px;}
+.access_suport_outer .access_suport_inner {padding: 69px 0 69px 19px;}
+.access_suport_outer p strong{max-width: 290px;}
+.banner_inner.pay_little {background: none;}
+.pay_little .signup_desc {padding: 0 27px 0 36px;}
+.signup_outer.common_outer.common_banner.pay_little {padding-top: 60px;}
+.pay_little .signup_desc p{line-height: 33px;}
+.pay_little .signup_desc p{margin-bottom:  26px;margin-top: 0;}
+.pay_little .signup_desc h2{margin-bottom:  35px;margin-top: 0;}
+.common_banner_desc.signup_desc { padding-bottom: 0;}
+.find_out_outer{padding: 92px 28px 93px 28px}
+.about_kadmon_outer .container {padding: 0 29px;}
+.pay_little .signup_desc h3{margin-bottom: 20px}
+.qualify_for .banner_inner.get_support_banner{background: none;}
+/*get-support page css end here*/
+
+/*how-rezurock-works page css Start here*/
+.differently_treat .banner_inner,.how_take_banner .banner_inner{background: none;}
+.differently_treat .signup_desc h2 {font-size: 40px;line-height: 42px;}
+.how_rezurock_banner .signup_desc {padding:0 30px 0;width: 100%;max-width: inherit;}
+.how_take_banner .signup_desc h2{margin:0 0 70px;}
+.immune_system_outer .container {padding: 0 19px 0 22px;}
+.immune_system_outer h4{line-height: 34px;margin-bottom:35px;}
+.immune_system_outer h3 {font-size: 36px;line-height: 43px;padding-left: 10px;}  
+.immune_system_outer h2 {font-size: 122px;line-height: 146px;margin: -20px 0 -25px;}
+.immune_system_outer h5 {font-size: 22px;line-height: 26px;}
+.immune_system_outer h5 span {font-size: 19px;line-height: 23px;margin-right: -5px;float: left;}
+.this_happens{margin-top: 40px;}
+.this_happens p {margin-right: -2px;}
+.immune_system_img {margin: 0;right: auto;width: 100%;text-align: center;margin-top:50px;}
+.most_medicines .container {padding: 0;}
+.most_medicines_img {order: 2; padding:40px  10px 0;}
+.most_medicines h2{line-height: 34px;}
+.most_medicines_content{padding: 0 18px 0 29px;margin-top: 0;}
+.most_medicines p:last-of-type{padding-right: 5px;}
+.most_medicines_img p{padding-left: 14px;margin-bottom: 10px;}
+.find_out_btn {margin-left: 14px;line-height: 26px;text-align: left;max-width: 240px;margin-top: 15px;}
+.signup_outer.common_outer.common_banner.how_take_banner{padding-top: 0;}
+.most_medicines{margin-bottom: 85px;}
+.differently_treat .signup_img {margin-top: -25px;}
+.immune_system_content p {max-width: 290px;}
+.immune_system_content .this_happens p{max-width: inherit;}
+.immune_system_img .for_mobile {display: inline-block !important;}
+/*how-rezurock-works page css end here*/  
+  
+/*Popup Css satrt here*/
+.popup_outer video {float: left;width: 100%;height: 100%;}
+    .popup_outer .modal-content{border-radius: 15px;}
+/*Popup Css end here*/
+}
+
+
+@media screen and (min-width:320px) and (max-width:360px) {
+.hero_slider_text.for_mobile,.signup_desc ,.hero_slider_content,.common_banner_desc{padding-left: 15px;padding-right: 15px;}
+.isi_section{padding: 0;}
+.hero_slider_content h2{font-size: 90px;}
+.hero_slider_content h3{font-size: 36px;}
+}
